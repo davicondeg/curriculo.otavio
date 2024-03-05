@@ -2,19 +2,21 @@
 <html lang="portuguese">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Currículo Pessoal</title>
+    <link rel="stylesheet" href="./style.css" />
 </head>
 
 <body>
-    <center><h1>Davi Conde Garcia</h1></center>
-
-       <center><img src="./imagens/imagem davi conde.jpg" height="100"/></center>
-       <hr />
+<div id="fotodc">
+    <h1>Davi Conde Garcia</h1>
+    <hr />
+       
+  
+       <img src="../imagens/imagem davi conde.jpg" height="200"/>
+</div>
     
-       <h2>Sobre mim:</h2>
-       <p>Sou, atualmente estudante do curso de ciência da computação da Universidade de Vila Velha (UVV). Estou cursando o primeiro período, e me dedicando a cada dia para aprender sobre a computação e sua ciência em si</p>
+    <h2>Sobre mim:</h2>
+       <p>Sou, atualmente estudante do curso de ciência da computação da <a style="color: coral;" href="https://uvv.br/">Universidade de Vila Velha (UVV)</a>. Estou cursando o primeiro período, e me dedicando a cada dia para aprender sobre a computação e sua ciência em si</p>
 
     <h2>Gostos Pessoais:</h2>
     <ul>
@@ -25,9 +27,39 @@
         <li>Ficar com a família</li>
     </ul>
 
+    <h2>Características positivas:</h2>
+    <ol>
+        <li>Facilidade no aprendizado</li>
+        <li>Versatilidades na realização de tarefas acadêmicas</li>
+        <li>Facilidade no trabalho coletivo</li>
+    </ol>
+
+    <h2>Redes Sociais:</h2>
+
+    <a href="https://www.instagram.com/conde.davi" target="_blank"><img src="../imagens/logo instagram.png"  midght="550" height="40" alt="logo instagram"/></a>
+    <img src="../imagens/logo whatsapp.png" height="40" alt="logo whatsapp"  />
+    <img src="../imagens/logo gmail.png" height="30"/>
+
     <h2>Contatos:</h2>
-    <a href="https://www.instagram.com/conde.davi" target="_blank"><img src="./imagens/logo instagram.png" height="40" alt="logo instagram"/></a>
-    <img src="./imagens/logo whatsapp.png" height="40" alt="logo whatsapp"  />
+    <form action="#">
+        <label for="email">Email</label>
+        <br>
+        <input type="text" name="email">
+        <br>
+        <label for="mensagem">Mensagem</label>
+        <br>
+        <textarea name="mensagem" cols="50" rows="10"></textarea>
+        <br>
+        <label for="date">Data de Nascimento</label>
+        <br>
+        <input type="date" name="date">
+
+    </form>
+    
+    
+    
+        
+
    
 </body>
 </html>
