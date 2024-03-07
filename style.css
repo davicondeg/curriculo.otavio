@@ -1,8 +1,28 @@
 html{
-    background-color:blanchedalmond
+    background-image: url(./imagens/imagem\ perfeita.jpg);
+    background-repeat: no-repeat;
+    color:aliceblue;
+    cursor:grab
 }
 
 #fotodc{
-    text-align: center;
-    border-style: unset;
+   text-align: center;
+   border-radius: 50%;
+  
 }
+
+#nomedc{
+    text-align: center;
+    font-size:larger;
+}  
+
+#fotinha{
+    border-radius: 50%;
+}
+
+
+    
+
+
+
+
