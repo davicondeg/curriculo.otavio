@@ -1,6 +1,5 @@
 html{
     background-image: url(./imagens/imagem\ perfeita.jpg);
-    background-repeat: no-repeat;
     color:aliceblue;
     cursor:grab
 }
@@ -17,6 +16,11 @@ html{
 }  
 
 #fotinha{
+    border-radius: 50%;
+}
+
+#abelha{
+    text-align: center;
     border-radius: 50%;
 }
 
