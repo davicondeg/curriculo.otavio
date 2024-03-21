@@ -1,31 +1,38 @@
-html{
-    background-image: url(./imagens/imagem\ perfeita.jpg);
-    color:aliceblue;
-    cursor:grab
-}
 
 #fotodc{
-   text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgdc{
    border-radius: 50%;
-  
+}
+
+html{
+    background-color:#bff1f2;
 }
 
 #nomedc{
-    text-align: center;
-    font-size:larger;
-}  
-
-#fotinha{
-    border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
-#abelha{
-    text-align: center;
-    border-radius: 50%;
+.linkuvv{
+    color: coral;
+}
+
+footer{
+    background-color: blueviolet;
+    height: 300px;
 }
 
 
-    
+
+
+
+
 
 
 
